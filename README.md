@@ -1,18 +1,49 @@
 # End-to-End Product Analytics for Payments Platform
 
+## Overview
+This project analyzes a payments platform to understand user behavior, funnel performance, and payment failures.
+
+---
+
 ## Problem
-Analyzed user behavior and payment performance to identify drop-offs and failure patterns.
+Identify drop-offs in the payment funnel and improve transaction success rates.
+
+---
 
 ## Approach
-- Data cleaning and EDA
-- Funnel analysis
-- SQL-based validation
-- Experiment design
+- Data cleaning and EDA using Python
+- Funnel analysis to identify drop-offs
+- SQL-based validation of hypotheses
+- Experiment design (A/B testing)
+
+---
 
 ## Key Insights
-- Higher failures at night
-- Mobile users have lower conversion
+- Payment failures increase during late hours
+- Mobile users have lower conversion rates
 - Repeat users show higher engagement
 
-## Tools
-Python, SQL, Pandas
+---
+
+## Screenshots
+
+### Funnel Analysis
+
+
+### Failure Rate by Hour
+
+
+### Device Conversion
+
+
+---
+
+## Tools Used
+- Python (Pandas)
+- SQL (SQLite)
+- Jupyter Notebook
+
+---
+
+## Project Files
+- Notebook: `notebooks/Sql_analysis.ipynb`
